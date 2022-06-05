@@ -1,9 +1,13 @@
 import './App.css';
+import ReactDOM from 'react-dom/client';
+import Canvas from "./Components/Canvas.jsx";
+
+
 
 function App() {
   return (
     <>
-    <h1></h1>
+    <Canvas/>
     </>
   );
 }
